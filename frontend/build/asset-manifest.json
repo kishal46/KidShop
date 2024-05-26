@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.270e92e1.css",
+    "main.js": "/static/js/main.e53f6f88.js",
+    "static/js/453.8ab44547.chunk.js": "/static/js/453.8ab44547.chunk.js",
+    "static/media/image3.jpg": "/static/media/image3.da17f8d49269820ff154.jpg",
+    "static/media/image6.jpg": "/static/media/image6.90e6bc816c08d5f139d5.jpg",
+    "static/media/image5.jpg": "/static/media/image5.a872f586dc99a741cd2e.jpg",
+    "static/media/image4.jpg": "/static/media/image4.56fd910117035ce684eb.jpg",
+    "static/media/image2.jpg": "/static/media/image2.87fd6cbb786b382696ec.jpg",
+    "static/media/image1.jpg": "/static/media/image1.83174e22619f06331589.jpg",
+    "static/media/books.png": "/static/media/books.8f8ef0d8e259e4572704.png",
+    "static/media/toy.png": "/static/media/toy.371cd387c01484f78612.png",
+    "static/media/scoolsupplies.png": "/static/media/scoolsupplies.9bc432ec8416f1043bc8.png",
+    "index.html": "/index.html",
+    "main.270e92e1.css.map": "/static/css/main.270e92e1.css.map",
+    "main.e53f6f88.js.map": "/static/js/main.e53f6f88.js.map",
+    "453.8ab44547.chunk.js.map": "/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.270e92e1.css",
+    "static/js/main.e53f6f88.js"
+  ]
+}

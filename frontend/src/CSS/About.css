@@ -1,0 +1,43 @@
+.about-page {
+    max-width: 100%;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-page h1 {
+    font-size: 2.5rem;
+    color: #ff6b6b; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-page p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.about-page p:first-child {
+    font-weight: bold;
+}
+
+.about-page .highlight {
+    color: #4ecdc4;
+}
+
+.about-page .emphasis {
+    font-style: italic;
+    color: #ff9f1c;
+}
+
+.about-page .thank-you {
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #2ec4b6;
+    margin-top: 30px;
+}

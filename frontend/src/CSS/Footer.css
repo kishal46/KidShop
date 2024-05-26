@@ -1,0 +1,50 @@
+.kidshop-footer {
+    background-color: #f8d7da; /* Red */
+    color: #721c24; /* White */
+    padding: 50px 0;
+    animation: slideInUp 0.5s ease-out;
+  }
+  
+  .footer-heading {
+    color: #343a40;
+    animation: fadeIn 1s ease-out;
+  }
+  
+  .footer-text {
+    color: #6c757d;
+    animation: fadeIn 1s ease-out;
+  }
+  
+  .footer-bottom {
+    background-color: #d4edda;
+    padding: 10px 0;
+    animation: fadeIn 1s ease-out;
+  }
+  
+  .footer-bottom p {
+    margin-bottom: 0;
+  }
+  
+  .kidshop-footer a:hover {
+    color: #007bff; 
+  }
+  @keyframes slideInUp {
+    from {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

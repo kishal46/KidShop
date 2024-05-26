@@ -1,0 +1,30 @@
+.services {
+  padding: 50px 0;
+  background-color:rgb(253, 207, 239);
+  background-size: cover;
+  background-position: center;
+}
+
+.section-title {
+  text-align: center;
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.service {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-title {
+  font-size: 1.5rem;
+}
+
+.service-description {
+  font-size: 1rem;
+  color: #666;
+}
