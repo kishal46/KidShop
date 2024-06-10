@@ -1,0 +1,11 @@
+@keyframes backgroundAnimation {
+    0% { background-color: #fab59c; }
+    25% { background-color: #ffe761; }
+    50% { background-color: #c3d1ff; }
+    75% { background-color: #ff63e5; }
+    100% { background-color: #b9fcc7; }
+}
+
+body {
+    animation: backgroundAnimation 10s infinite alternate;
+}

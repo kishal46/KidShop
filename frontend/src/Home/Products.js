@@ -2,8 +2,9 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../CSS/Home.css';
 import BasicExample from './AsideComponents';
+import AsideComponents from './AsideComponents';
 
-function Products() {
+function Main() {
   const products = [
     { name: "Kids Board Book", price: "Rs.21", discountPrice: "Rs.15", image: "https://www.kidshopy.com/uploads/products/small/product_1190.jpg" },
     { name: "Computer Our Lifeline-2", price: "Rs.30", discountPrice: "Rs.25", image: "	https://www.kidshopy.com/uploads/products/small/product_1598.jpg" },
@@ -33,7 +34,7 @@ function Products() {
         </div>
         <div className="col-md-12 col-lg-8">
           <aside className="p-3">
-            <BasicExample />
+            <AsideComponents/>
           </aside>
         </div>
       </div>
@@ -41,4 +42,4 @@ function Products() {
   );
 }
 
-export default Products;
+export default Main;

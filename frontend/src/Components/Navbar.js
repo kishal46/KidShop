@@ -28,7 +28,6 @@ function NormalNavbar() {
             <NavLink to={"/login"} className="nav-link"><button className="btn btn-outline-primary" aria-label="Login">Login</button></NavLink>
           </div>
         </Nav>
-
           }
         </Navbar.Collapse>
       </Container>

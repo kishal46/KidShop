@@ -15,12 +15,14 @@ import Toys from './Home/Toys';
 import SchoolSuplies from './Home/SchoolSuplies';
 import 'react-toastify/dist/ReactToastify.css';
 
+
+
 function App() {
-  
   return (
       <div className="App">
         <Bot/>
         <CustomNavbar />
+        
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/purchase' element={<Product />} />
