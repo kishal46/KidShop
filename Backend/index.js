@@ -12,7 +12,7 @@ mongoose.connection.on('connected',()=>{
     console.log("MongoDB connencted")
 })
 app.use('/login',user)
-// app.use('/appoinment',appoinment)
+
 
 app.listen(3001,()=>{
     console.log("Server is running 3001");
