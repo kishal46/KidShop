@@ -1,7 +1,6 @@
 const express=require('express')
 const app=express()
 const user=require('./routes/user')
-const appoinment=require('./routes/apponment')
 const mongoose=require('mongoose')
 const cors=require('cors')
 
@@ -12,7 +11,6 @@ mongoose.connection.on('connected',()=>{
     console.log("MongoDB connencted")
 })
 app.use('/login',user)
-
 
 app.listen(3001,()=>{
     console.log("Server is running 3001");
